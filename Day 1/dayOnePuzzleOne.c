@@ -8,7 +8,7 @@ int compare(const void *a, const void *b) {
 }
 
 int main() {
-    FILE *file = fopen("d1p1.txt", "r");
+    FILE *file = fopen("d1.txt", "r");
     if (file == NULL) {
         // printf("not here\n");
         return 1;
